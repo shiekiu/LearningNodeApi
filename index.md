@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## 学习NodeAPI接口
 
-You can use the [editor on GitHub](https://github.com/shiekiu/LearningNodeApi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+看了KOA VUE 各种框架，虽然可以拿来主义，但是仍然感觉应该好好打好node基础。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### OS
 
-### Markdown
+目录OS 的 js主要可以获取操作系统的各种信息
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### HTTP 
 
-```markdown
-Syntax highlighted code block
+目录HTTP 的 js主要可以包含用的最多的 request 和 response
 
-# Header 1
-## Header 2
-### Header 3
+### Module 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shiekiu/LearningNodeApi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+目录module 的 主要便于理解node的各种模块组合使用
+笔记：模块在第一次加载后会被缓存。 这也意味着（类似其他缓存机制）如果每次调用 require('foo') 都解析到同一文件，则返回相同的对象。多次调用 require(foo) 不会导致模块的代码被执行多次。 这是一个重要的特性。
